@@ -1,0 +1,254 @@
+/* ______________________ALL______________________ */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* _______________________________________________________ */
+
+/* _________________________HEADER_________________________ */
+.header {
+}
+
+.header-navigatore {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo-color {
+  color: #2e2f42;
+}
+
+.header-menu-list {
+}
+
+.header-menu-item {
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-contacts {
+}
+
+.header-contacts-list {
+}
+
+.header-contacts-item {
+}
+
+.header-contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-logo:hover,
+.header-logo:focus,
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: #404bbf;
+}
+
+/* _______________________________________________________ */
+
+/* _________________________MAIN_________________________ */
+
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.features-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+/* ___________HERO___________ */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* ________________ */
+
+/* ___________SECTION SOFTS___________ */
+
+.features-softs {
+}
+
+.features-softs-list {
+}
+
+.features-softs-item {
+}
+
+.features-softs-subtitle {
+}
+
+.features-softs-item-text {
+}
+
+/* ________________ */
+
+/* ___________SECTION TEAM___________ */
+
+.features-team {
+  background-color: #f4f4fd;
+}
+
+.features-team-title {
+}
+
+.features-team-list {
+}
+
+.features-team-item {
+  background-color: #ffffff;
+}
+
+.features-team-item-image {
+}
+
+.features-team-subtitle {
+  text-align: center;
+}
+
+.features-team-item-text {
+  text-align: center;
+}
+
+/* ________________ */
+
+/* ___________SECTION PORTFOLIO___________ */
+
+.features-portfolio-title {
+}
+
+.features-portfolio {
+}
+
+.features-portfolio-list {
+}
+
+.features-portfolio-item {
+}
+
+.features-portfolio-item-image {
+}
+
+.features-portfolio-subtitle {
+}
+
+.features-portfolio-item-text {
+}
+/* ________________ */
+
+/* _______________________________________________________ */
+
+/* _________________________FOOTER_________________________ */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo-color {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #404bbf;
+}
+/* _______________________________________________________ */
