@@ -8,6 +8,20 @@ body {
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -23,10 +37,19 @@ button {
   cursor: pointer;
 }
 
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 /* _______________________________________________________ */
 
 /* _________________________HEADER_________________________ */
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-navigatore {
@@ -114,10 +137,16 @@ button {
   text-transform: capitalize;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 /* ___________HERO___________ */
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
+  border-bottom: 1px inside #e7e9fc;
 }
 
 .hero-title {
@@ -127,6 +156,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -144,6 +174,10 @@ button {
   background-color: #404bbf;
 }
 
+.container-items {
+  padding: 32px 0 32px 16px;
+}
+
 /* ________________ */
 
 /* ___________SECTION SOFTS___________ */
@@ -158,6 +192,7 @@ button {
 }
 
 .features-softs-subtitle {
+  margin-bottom: 8px;
 }
 
 .features-softs-item-text {
@@ -172,6 +207,7 @@ button {
 }
 
 .features-team-title {
+  margin-bottom: 72px;
 }
 
 .features-team-list {
@@ -182,10 +218,12 @@ button {
 }
 
 .features-team-item-image {
+  margin-bottom: 32px;
 }
 
 .features-team-subtitle {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .features-team-item-text {
@@ -196,10 +234,11 @@ button {
 
 /* ___________SECTION PORTFOLIO___________ */
 
-.features-portfolio-title {
+.features-portfolio {
 }
 
-.features-portfolio {
+.features-portfolio-title {
+  margin-bottom: 72px;
 }
 
 .features-portfolio-list {
@@ -209,9 +248,11 @@ button {
 }
 
 .features-portfolio-item-image {
+  margin-bottom: 32px;
 }
 
 .features-portfolio-subtitle {
+  margin-bottom: 8px;
 }
 
 .features-portfolio-item-text {
@@ -224,6 +265,7 @@ button {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -245,6 +287,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
 }
 
 .footer-logo:hover,
