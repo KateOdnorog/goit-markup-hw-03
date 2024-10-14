@@ -37,19 +37,26 @@ button {
   cursor: pointer;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-
 /* _______________________________________________________ */
 
 /* _________________________HEADER_________________________ */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigatore {
@@ -83,6 +90,8 @@ button {
 }
 
 .header-menu-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -155,7 +164,7 @@ button {
 }
 
 .container-items {
-  padding: 32px 0 32px 16px;
+  padding: 32px 0;
 }
 
 /* ___________HERO___________ */
@@ -193,10 +202,10 @@ button {
   color: #fff;
   background-color: #4d5ae5;
   padding: 16px 32px;
-  width: calc(100% - 2 * 32px) / 1;
+  min-width: 169px;
   border-radius: 4px;
   border: none;
-  height: 54px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -231,6 +240,10 @@ button {
 
 /* ___________SECTION TEAM___________ */
 
+.container-team-items {
+  padding: 32px 0;
+}
+
 .features-team {
   background-color: #f4f4fd;
 }
@@ -248,6 +261,7 @@ button {
 .features-team-item {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .features-team-item-image {
@@ -276,15 +290,20 @@ button {
 .features-portfolio-list {
   display: flex;
   align-items: center;
-  gap: 24px;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .features-portfolio-item {
 }
 
 .features-portfolio-item-image {
-  
+}
+
+.container-portfolio-items {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .features-portfolio-subtitle {
@@ -299,7 +318,7 @@ button {
 
 /* _________________________FOOTER_________________________ */
 
-.container-footer{
+.container-footer {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -318,6 +337,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-color {
