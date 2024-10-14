@@ -37,6 +37,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -44,6 +48,11 @@ button {
   margin: -1px;
   border: 0;
   padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
@@ -87,11 +96,11 @@ button {
 .header-menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -304,6 +313,7 @@ button {
 .container-portfolio-items {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  padding-top: none;
 }
 
 .features-portfolio-subtitle {
@@ -337,8 +347,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-color {
