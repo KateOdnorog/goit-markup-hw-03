@@ -39,6 +39,8 @@ button {
 
 img {
   display: block;
+  max-width: 100%, 
+  height: auto;
 }
 
 .visually-hidden {
@@ -96,11 +98,10 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-item {
+  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -313,7 +314,7 @@ img {
 .container-portfolio-items {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  padding-top: none;
+  border-top: none;
 }
 
 .features-portfolio-subtitle {
